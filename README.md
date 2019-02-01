@@ -1,2 +1,2 @@
-# SpaceProgram
-The Best Game Ever !
+# SpacePorgrammers
+The best game ever!

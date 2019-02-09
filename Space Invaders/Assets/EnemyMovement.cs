@@ -36,13 +36,7 @@ public class EnemyMovement : MonoBehaviour {
             transform.position = new Vector2(transform.position.x, transform.position.y - 0.5f);
         }
 
-        if (transform.position.y <= -3.50)
-        {
-            Debug.Log("works");
-
-            SceneManager.LoadScene(2);
-
-        }
+       
 
       
 

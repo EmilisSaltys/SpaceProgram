@@ -2,25 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class pLAY : MonoBehaviour {
 
-	// Use this for initialization
+public class Meniu : MonoBehaviour {
+
+	
 	void Start () {
 		
 	}
 	
-	// Update is called once per frame
+
 	void Update () {
 		
-
-
 	}
 
-    public void PlayGame()
+    public void PlayMeniu()
     {
-
-        SceneManager.LoadScene(1);
-
+        SceneManager.LoadScene(0);
     }
 
 }

@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-public class pLAY : MonoBehaviour {
+
+public class GAMEOVER : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -12,15 +12,5 @@ public class pLAY : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-
-
 	}
-
-    public void PlayGame()
-    {
-
-        SceneManager.LoadScene(1);
-
-    }
-
 }

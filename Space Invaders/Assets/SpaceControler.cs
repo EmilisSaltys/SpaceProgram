@@ -12,7 +12,7 @@ public class SpaceControler : MonoBehaviour {
 	
 	
 	void Update () {
-
+       
 
         this.transform.Translate(Input.GetAxis("Horizontal")*0.25f, 0, 0);
 
